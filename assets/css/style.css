@@ -1,0 +1,101 @@
+/* General Background Page Sets */
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+  
+    background-size: 100%;
+}
+
+#title{
+	font-family: "Shrikhand", sans-serif;
+	text-align: center;
+	color:white;
+	font-size: 75px;
+	margin-top: 20px;
+}
+
+/* Start Button & Fade into Reset Button */
+.buttons{
+	margin-left: 40.5%;
+}
+
+/* Start Button */
+.get-number {
+	background: none;
+	border:1px solid white;
+	font-family: "Raleway", sans-serif;
+	color:white;
+	padding:10px 15px;
+	font-size: 24px;
+	border-radius:5px;
+	margin-right:2%;
+}
+
+/* Reset Button */
+.reset-game{
+	display: none;
+	background: none;
+	border:1px solid white;
+	font-family: "Raleway", sans-serif;
+	color:white;
+	padding:10px 15px;
+	font-size: 24px;
+	border-radius:5px;
+	margin-right:2%;
+}
+
+.get-number:hover, .reset-game:hover{
+	cursor: pointer;
+	box-shadow: 0 0 20px white;
+}
+
+/* Jem Buttons */
+.jem-btns{
+	margin-left: 25%;
+	margin-top:2%;
+}
+
+.jem{
+	border:1px solid white;
+	padding:20px 20px;
+	border-radius: 50px;
+	margin:10px;
+}
+
+.jem:hover{
+	cursor: pointer;
+	box-shadow: 0 0 20px white;
+}
+
+/* Random Number & User Total */
+.totals{
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	color:white;
+	font-weight: bold;
+	margin-top:2%;
+	text-align:center;
+
+
+}
+
+.box{
+	border:1px dotted white;
+	padding:10px 15px;
+	border-radius:5px;
+	margin-left:32%;
+	margin-right:32%;
+}
+
+
+/* Wins & Loses Score */
+.score{
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	color:white;
+
+}
+
+
+
