@@ -45,6 +45,7 @@ $( document ).ready(function() {
 
     });
 
+
 // Reset Game Function and Score Reset
 	$(".reset-game").on("click", function (){
 		$("#random").html('');
@@ -54,15 +55,5 @@ $( document ).ready(function() {
 		$("#total").html('');
 		runGame = true;
 	});
-
-
-	
-
-
-
-
-
-
-
 
 });
